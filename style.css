@@ -5,15 +5,15 @@ body {
     font-family: 'Josefin Sans', sans-serif;
 }
 
+img {
+    height: 100%;
+    width: 100%;
+}
+
 .titre {
     background-color: rgb(226, 188, 103);
     text-align: center;
     padding: 1px;
-}
-
-img {
-    height: 100%;
-    width: 100%;
 }
 
 .racine {
@@ -31,8 +31,7 @@ img {
 .bouton-racine {
     color: rgb(16, 16, 16);
     background-color: rgb(226, 188, 103);
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 3vw;
+    font-size: 2vw;
     width: 10vw;
     height: 10vw;
     border-radius: 50%;
@@ -45,7 +44,7 @@ img {
 .texte {
     background-color: rgb(226, 188, 103);
     color: rgb(16, 16, 16);
-    font-size: 2vw;
+    font-size: 1vw;
     padding: 1vw;
 }
 
@@ -62,17 +61,25 @@ footer ul {
 footer ul li {
     padding-left: 2vw;
 }
+
 a {
     color: rgb(16 16 16);
 }
 
 @media (max-width: 700px) {
     .titre {background-color: rgb(16, 16, 16);
-        color: rgb(226, 188, 103);}
+        color: rgb(226, 188, 103);
+    }
+
     .texte {background-color: rgb(16, 16, 16);
-        color: rgb(226, 188, 103);}
+        color: rgb(226, 188, 103);
+    }
+
     footer {
-        background-color: rgb(16, 16, 16);}
+        background-color: rgb(16, 16, 16);
+    }
+
     a {
-        color: rgb(226, 188, 103);}
+        color: rgb(226, 188, 103);
+    }
 }
